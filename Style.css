@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Josefin+Sans:wght@700&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font-size: 100%; 
+    
+    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Cinzel', serif;
+    color: green;
+    font-weight: 450;
+    font-size: 25px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px  solid white ;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'PT Serif Caption', serif;
+    font-weight: 500;    
+    font-size: 40px;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'PT Serif Caption', serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: green;
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    
+    
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: black;
+    font-weight:180;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'PT Serif Caption', serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: green;
+    
+}
+
+.conteudo-principal-imagem {
+    height: 160px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.conteudo-secundario-titulo {
+    font-family: 'PT Serif Caption', serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.conteudo-imagem {
+    height: auto;
+    width: 450px;
+    padding-top: 40px;
+    padding-right: 40px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    padding-left: 40px;
+
+
+}
+
+
+.conteudo-secundario-paragrafo {
+    font-family: 'PT Serif Caption', serif;
+    font-weight: 350;
+    font-size: 20px;
+    color: green;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.rodape-imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: 280px;
+    margin-bottom: 48px;
+    border-top: 0.4px  solid white ;
+    padding-bottom: 40pxssss;
+}
+
